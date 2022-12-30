@@ -1,0 +1,31 @@
+/* Global styles */
+
+/* Define custom font - Cascadia */
+@font-face {
+    font-family: "Cascadia Code Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/Cascadia.woff") format('woff'), url("../fonts/Cascadia.woff");
+    }
+
+    /* Navigation */
+
+
+
+    /* Hero section */
+
+
+
+    /* About me */
+
+
+
+    /* Works section */
+
+
+
+    /* Other projects */
+
+
+
+    /* Footer */
