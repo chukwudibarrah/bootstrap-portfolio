@@ -33,7 +33,7 @@
 <body id="pageBody">
 
     <!-- Navigation -->
-    <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light p-md-3">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">chuk<br>wudi</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -41,9 +41,9 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav" aria-current="true">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="true" href="#"><span class="navNumber">01.</span>
+                        <a class="nav-link" href="#"><span class="navNumber">01.</span>
                             About</a>
                     </li>
                     <li class="nav-item">
@@ -58,15 +58,16 @@
     </nav>
 
     <!-- Hero section -->
-    <header class="landingPage bg-white banner-image w-100 vh100 d-flex justify-content-center align-items-center">
+    <header class="landingPage banner-image w-100 vh100 d-flex justify-content-center align-items-center">
         <div class="p-5 mb-4 rounded-3">
             <div class="container-fluid py-5">
                 <p class="preCopy">Hello! My name is</p>
                 <h1 class="display-5 fw-bold">Chukwudi Barrah</h1>
                 <h2>I create things for the web.</h2>
-                <p class="col-md-8 fs-4">I’m an editor and aspiring frontend web developer and I love creating
-                    exceptional digital experiences. I’m currently focused on developing human-centric web products.</p>
-                <button class="btn btn-primary btn-lg" type="button">More about me</button>
+                <p class="col-md-8 fs-4 introCopy">I’m an editor and aspiring frontend web developer and I love creating
+                exceptional digital experiences. I’m currently focused on developing human-centric web products.</p>
+                <button type="button" class="btn btn-outline-primary introButton"><a href="#Aboutme">More about me</a></button>
+
             </div>
         </div>
     </header>
@@ -75,25 +76,25 @@
     <div class="container aboutMe">
         <div class="row sectionHeading">
             <div class="col">
-                <h3 class="copyHeading"><span>01.</span> About me</h3>
+                <h3 class="copyHeading"><span class="headingNumber">01.</span> About me</h3>
             </div>
         </div>
         <div class="row sectionCopy">
-            <div class="col-lg-7">
+            <div class="col-lg-11">
                 <p class="copyBody">
                     I’ve always loved the idea of building things; in the world and virtually. I have a Masters degree
                     in Quantity Surveying: building and developing does not get realer than that.<br>
-
+                    <br>
                     But I’ve also loved creating websites since I first started customising Blogger sites in the late
                     2000s. After WordPress was launched as a competition, it was just a matter of months before I was
                     paying for wordpress.org and creating websites using all the free themes at first, and then the paid
                     themes.<br>
-
+                    <br>
                     After years of creating WordPress-based websites, I want to understand and create a career out of
                     how the structure works from the foundation to the final colour stroke on the exterior. I want to be
                     able to experience and create web experiences that go beyond a single CMS. That’s why I’m doing
                     this.<br>
-
+                    <br>
                     Some of the technologies I’ve worked with and have started recently working with:
                 <ul>
                     <li>WordPress (of course)</li>
@@ -112,7 +113,7 @@
     <div class="container workSection">
         <div class="row sectionHeading">
             <div class="col">
-                <h3 class="copyHeading"><span>02.</span> Some things I've created</h3>
+                <h3 class="copyHeading"><span class="headingNumber">02.</span> Some things I've created</h3>
             </div>
         </div>
     </div>
@@ -137,23 +138,22 @@
     </div>
     <div class="container cardImgs">
         <div class="row projectHeading">
-            <div class="col-lg-6 theProject">
-                <h3 class="copyHeading">Portfolio 2</h3>
-                <div class="card" style="width: 21rem;">
+            <div class="col theProject">
+                <h3 class="copyHeading">Portfolio v2</h3>
+                <div class="card" style="width: 23rem;">
                     <div class="card-body">
-                        <p class="card-text">Following a provided structure to create a second portfolio to highlight
-                            some of the projects undertaken during the Trilogy Bootcamp. The site included live links to
-                            ‘jump’ to the relevant sections on the page.</p>
+                        <p class="card-text">Following a provided structure to create a second portfolio to highlight some of the projects undertaken during the Trilogy Bootcamp. The site included live links to ‘jump’ to the relevant sections on the page.</p>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="col-lg-6 projectImg">
-            <figure>
-                <img src="images/img2.png" class="img-fluid" alt="website screenshot">
-            </figure>
+            <div class="col-lg-6 projectImg">
+                <figure>
+                    <img src="images/img2.png" class="img-fluid" alt="website screenshot">
+                </figure>
+            </div>
         </div>
     </div>
+    
 
     <!-- Other projects -->
     <div class="container otherProjects">
@@ -202,7 +202,7 @@
     <div class="container contactMe">
         <div class="row sectionHeading">
             <div class="col">
-                <h3 class="copyHeading"><span>03.</span> Say hello</h3>
+                <h3 class="copyHeading"><span class="headingNumber">03.</span> Say hello</h3>
             </div>
         </div>
         <div class="row sectionCopy">
@@ -213,18 +213,18 @@
             </div>
         </div>
     </div>
-    <div class="row g-3">
-        <div class="col-md-6">
+    <div class="row g-3 justify-content-start">
+        <div class="col-sm-4 col-md-4">
           <input type="text" class="form-control" placeholder="What's your name" aria-label="Name">
         </div>
-        <div class="col-md-6">
+        <div class="col-sm-4 col-md-4">
           <input type="email" class="form-control" placeholder="Email" aria-label="Email">
         </div>
-        <div class="col-md-7">
+        <div class="col-sm-4 col-md-5">
             <input type="text" class="form-control" placeholder="Message" aria-label="Message">
           </div>
-          <div class="col-md-5">
-            <button type="button" class="btn btn-outline-secondary">Send</button>
+          <div class="col-sm-4 col-md-3">
+            <button type="button" class="btn btn-outline-secondary contactButton"><a href="#">Send</a></button>
           </div>
       </div>
 
@@ -241,15 +241,28 @@
         </div>
     </footer>
 
+<!-- Optional JS for sticky nav bar -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript">
+    var nav = document.querySelector('nav');
 
-
-
-
-
-
-
-
-
+    window.addEventListener('scroll', function () {
+      if (window.pageYOffset > 100) {
+        nav.classList.add('bg-dark', 'shadow');
+      } else {
+        nav.classList.remove('bg-dark', 'shadow');
+      }
+    });
+  </script>
 
 </body>
 

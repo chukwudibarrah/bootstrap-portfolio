@@ -8,24 +8,216 @@
     src: url("../fonts/Cascadia.woff") format('woff'), url("../fonts/Cascadia.woff");
     }
 
+    /* Define background color */
+#pageBody {
+    background: #2C2C2D;
+}
+    
+
     /* Navigation */
+.navbar-brand {
+    font-family: "Helvetica Neue";
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 0.8;
+    color: #FB3640;
+}
 
+.navbar-toggler {
+    border: solid 1px #FB3640;
+}
 
+.nav-link {
+    font-family: "Cascadia Code Regular", 'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: #247BA0;
+}
+
+.navNumber {
+    color: #FB3640
+}
 
     /* Hero section */
+.landingPage {
+    height: 150vh;
+    align-items: center;
+    background-color: #2C2C2D;
+}
+
+.hidden-spacer {
+    height: 56px;
+  }
+
+.preCopy {
+    color: #FB3640;
+    font-family: "Cascadia Code Regular", Courier, monospace;
+    font-size: 16px;
+    margin-left: 40px;
+    margin-top: 70px;
+}
+
+.fw-bold {
+    font-family: "Helvetica Neue";
+    color: #49ABD4;
+    margin-left: 40px;
+    font-size: 55px;
+    line-height: 1;
+}
+
+.py-5 h2 {
+    font-family: "Helvetica Neue";
+    font-weight: 900;
+    color: #247BA0;
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 55px;
+    line-height: 1;
+}
+
+.introCopy {
+    font-family: "Helvetica Neue";
+    color: #247BA0;
+    margin-left: 40px;
+    margin-top: 50px;
+    font-size: 12px;
+    line-height: 1.3;
+}
+
+.btn-outline-primary {
+    --bs-btn-color: #FB3640;
+    --bs-btn-border-color: #FB3640;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #FB3640;
+    --bs-btn-hover-border-color: #FB3640;
+    --bs-btn-focus-shadow-rgb: 13,110,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #FB3640;
+    --bs-btn-active-border-color: #FB3640;
+    --bs-btn-active-shadow: inset 0 10px 10px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #FB3640;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #FB3640;
+    --bs-gradient: none;
+}
+
+.btn {
+        --bs-btn-padding-x: 20px;
+        --bs-btn-padding-y: 20px;
+}
+
+.introButton a {
+    text-decoration: none;
+    font-family: "Cascadia Code Regular";
+    font-size: 16px;
+    color: #247BA0;
+    justify-content: center;
+    align-items: center;
+}
+
+button.introButton {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+/* About me */
+.copyHeading {
+    font-family: "Helvetica Neue";
+    font-size: 30px;
+    color: #247BA0;
+    margin-left: 50px;
+    margin-bottom: 10%;
+    margin-top: 8%;
+}
+
+.headingNumber {
+    font-family: "Cascadia Code Regular";
+    color: #FB3640;
+    font-size: 22px;
+    align-items: center;
+}
+
+.copyBody {
+    font-family: "Helvetica Neue";
+    color: #247BA0;
+    margin-left: 50px;
+    font-size: 18px;
+    line-height: 1.5;
+    
+}
+
+.sectionCopy ul {
+    font-family: "Helvetica Neue";
+    color: #247BA0;
+    margin-left: 50px;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 20%;
+    
+}
+
+/* Works section */
+.card {
+    background-color: #242425;
+    z-index: 1;
+}
+
+.card-text {
+    color: #247BA0;
+    font-family: "Helvetica Neue";
+    font-size: 16px;
+    z-index: 1;
+}
 
 
-
-    /* About me */
-
+/* Other projects */
 
 
-    /* Works section */
+/* Contact section */
+.form-control {
+    background-color: #2C2C2D;
+    margin-left: 60px;
+    border-color: #FB3640;
+    font-family: "Cascadia Code Regular";
+}
 
+div.placeholder {
+    color: #FB3640;
+}
 
+.btn-outline-secondary {
+    --bs-btn-color: #FB3640;
+    --bs-btn-border-color: #FB3640;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #FB3640;
+    --bs-btn-hover-border-color: #FB3640;
+    --bs-btn-focus-shadow-rgb: 13,110,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #FB3640;
+    --bs-btn-active-border-color: #FB3640;
+    --bs-btn-active-shadow: inset 0 10px 10px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #FB3640;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #FB3640;
+    --bs-gradient: none;
+}
 
-    /* Other projects */
+.btn {
+        --bs-btn-padding-x: 20px;
+        --bs-btn-padding-y: 20px;
+}
 
+.contactButton a {
+    text-decoration: none;
+    font-family: "Cascadia Code Regular";
+    font-size: 16px;
+    color: #247BA0;
+    justify-content: center;
+    align-items: center;
+}
 
+button.contactButton {
+    margin-left: 40px;
+    margin-top: 40px;
+}
 
-    /* Footer */
+/* Footer */
