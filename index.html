@@ -63,13 +63,11 @@
     <!-- Hero section -->
     <header class="landingPage banner-image w-100 vh100 d-flex justify-content-center align-items-center" id="home">
         <div class="p-5 mb-4 rounded-3">
-            <div class="container-fluid py-5">
+            <div class="container mainHeading py-5">
                 <p class="preCopy">Hello! My name is</p>
                 <h1 class="display-5 fw-bold">Chukwudi Barrah</h1>
                 <h2>I create things for the web.</h2>
-                <p class="col-md-8 fs-4 introCopy">I’m an editor and aspiring frontend web developer and I love
-                    creatingexceptional digital experiences. I’m currently focused on developing human-centric web
-                    products.</p>
+                <p class="col-md-8 fs-4 introCopy">I’m an editor and aspiring frontend web developer. I love and am learning to create exceptional digital experiences.</p>
                 <button type="button" class="btn btn-outline-danger introButton">More about me</button>
 
             </div>
@@ -154,6 +152,8 @@
 
 
     <!-- Other projects -->
+
+    <!-- These boxes are supposed to grow on hover -->
     <div class="container otherProjects">
         <div class="row sectionHeading">
             <div class="col text-center">
@@ -162,7 +162,7 @@
         </div>
     </div>
     <div class="row extraWorks">
-        <div class="col-md-5 bodyCard">
+        <div class="col-md-4 bodyCard">
             <div class="card otherWorks">
                 <div class="card-body">
                     <h5 class="card-title  othercardTitle"><a href="#" class="cardLink">Code-refactor project</a></h5>
@@ -171,7 +171,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-5 bodyCard">
+        <div class="col-md-4 bodyCard">
             <div class="card otherWorks">
                 <div class="card-body">
                     <h5 class="card-title othercardTitle"><a href="#" class="cardLink">CSS cheat sheet</a></h5>
@@ -182,7 +182,7 @@
         </div>
     </div>
     <div class="row extraWorks">
-        <div class="col-md-5 bodyCard">
+        <div class="col-md-4 bodyCard">
             <div class="card otherWorks">
                 <div class="card-body">
                     <h5 class="card-title othercardTitle"><a href="#" class="cardLink">Portfolio 1</a></h5>
@@ -191,7 +191,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-5 bodyCard">
+        <div class="col-md-4 bodyCard">
             <div class="card otherWorks">
                 <div class="card-body">
                     <h5 class="card-title othercardTitle"><a href="#" class="cardLink">WordPress Portfolio</a></h5>
@@ -224,17 +224,20 @@
     </div>
     <div class="row g-2 contactForm">
         <div class="col-md-5">
+            <label for="text" class="form-label">What's your name</label>
             <input type="text" class="form-control" placeholder="What's your name" aria-label="Name">
         </div>
         <div class="col-md-5">
+            <label for="email" class="form-label">Email</label>
             <input type="email" class="form-control" placeholder="Email" aria-label="Email">
         </div>
     </div>
     <div class="row g-2 contactForm align-items-center">
         <div class="col-md-7">
-            <input type="text" class="form-control" placeholder="Message" aria-label="Message">
+            <label for="textarea" class="form-label">Message</label>
+            <input type="textarea" class="form-control" placeholder="Message" aria-label="Message">
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 contact-Button">
             <button type="button" class="btn btn-outline-danger contactButton">Send</button>
         </div>
     </div>
