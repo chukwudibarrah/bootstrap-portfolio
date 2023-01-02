@@ -33,14 +33,17 @@
 /* Add hover animation to logo */
 .picture2 {
     display: none;
+    transition: .10s;
 }
 
 .thumbnail:hover .picture1 {
     display: none;
+    transition: .10s;
 }
 
 .thumbnail:hover .picture2 {
     display: block;
+    transition: .10s;
 }
 
 /* Size and font of nav links */
@@ -135,7 +138,6 @@
     margin-left: 50px;
     font-size: 18px;
     line-height: 1.5;
-
 }
 
 .sectionCopy ul {
@@ -145,57 +147,84 @@
     font-size: 20px;
     line-height: 1.5;
     margin-bottom: 20%;
-
 }
 
 /* Works section */
-.theProject {
-    transition-property: top;
+
+/* Style image overlay and transition */
+.projectImg {
+    position: relative;
+    width: 50%;
 }
 
-.mainCard {
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
     background-color: #242425;
-    z-index: 1;
-    width: 23rem;
 }
 
-.workscopyHeading {
+.projectImg:hover .overlay {
+    opacity: 1;
+}
+
+.theProject a {
     font-family: "Helvetica Neue";
     font-size: 30px;
     color: #247BA0;
+    text-decoration: none;
 }
 
-.mainWorks {
+.theProject {
     color: #247BA0;
     font-family: "Helvetica Neue";
     font-size: 16px;
-    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
 
-.cardImgs {
-    margin-bottom: 100px;
-}
-
-.shotImg1 {
-    margin-left: 60px;
-}
-
-.shotImg2 {
-    margin-right: 60px;
-}
 
 /* Other projects */
+
 .otherWorks {
     background-color: #242425;
-    height: 40vh;
-    width: 16rem;
-    margin: 10px;
+    height: 100%;
+    padding: 30px;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bodyCard {
+    margin-bottom: 20px;
+}
+
+/* Add shadow on hover */
+.bodyCard:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .extraWorks {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .othercardTitle {
