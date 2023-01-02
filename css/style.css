@@ -6,23 +6,44 @@
     font-style: normal;
     font-weight: normal;
     src: url("../fonts/Cascadia.woff") format('woff'), url("../fonts/Cascadia.woff");
-    }
+}
 
-    /* Define background color */
+/* Define background color */
 #pageBody {
     background: #2C2C2D;
 }
-    
 
-    /* Navigation */
-.navbar-brand {
-    font-family: "Helvetica Neue";
-    font-weight: 900;
-    font-size: 30px;
-    line-height: 0.8;
-    color: #FB3640;
+/* Animation for sections */
+.sectionHeading {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
+
+/* Navigation */
+
+/* Adjust size of logo image */
+.logoImage {
+    max-width: 20%;
+    margin-left: 20px;
+}
+
+/* Add hover animation to logo */
+.picture2 {
+    display: none;
+}
+
+.thumbnail:hover .picture1 {
+    display: none;
+}
+
+.thumbnail:hover .picture2 {
+    display: block;
+}
+
+/* Size and font of nav links */
 .navbar-toggler {
     border: solid 1px #FB3640;
 }
@@ -37,23 +58,23 @@
     color: #FB3640
 }
 
-    /* Hero section */
+/* Hero section */
 .landingPage {
-    height: 150vh;
+    height: 140vh;
     align-items: center;
     background-color: #2C2C2D;
 }
 
+/* make navbar overlap hero */
 .hidden-spacer {
     height: 56px;
-  }
+}
 
 .preCopy {
     color: #FB3640;
     font-family: "Cascadia Code Regular", Courier, monospace;
     font-size: 16px;
     margin-left: 40px;
-    margin-top: 70px;
 }
 
 .fw-bold {
@@ -114,7 +135,7 @@
     margin-left: 50px;
     font-size: 18px;
     line-height: 1.5;
-    
+
 }
 
 .sectionCopy ul {
@@ -124,10 +145,14 @@
     font-size: 20px;
     line-height: 1.5;
     margin-bottom: 20%;
-    
+
 }
 
 /* Works section */
+.theProject {
+    transition-property: top;
+}
+
 .mainCard {
     background-color: #242425;
     z-index: 1;

@@ -34,8 +34,9 @@
 
     <!-- Navigation -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light p-md-3">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">chuk<br>wudi</a>
+        <div class="container-fluid thumbnail">
+            <a class="navbar-brand picture1" href="#home"><img class="img-responsive logoImage" src="images/chukwudi.png" alt="chukwudi logo"></a>
+            <a class="navbar-brand picture2" href="#home"><img class="img-responsive logoImage" src="images/barrah.png" alt="chukwudi logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -43,14 +44,14 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                 <ul class="navbar-nav" aria-current="true">
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><span class="navNumber">01.</span>
+                        <a class="nav-link" href="#aboutMe"><span class="navNumber">01.</span>
                             About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><span class="navNumber">02.</span> Works</a>
+                        <a class="nav-link" href="#works"><span class="navNumber">02.</span> Works</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><span class="navNumber">03.</span> Contact</a>
+                        <a class="nav-link" href="#contactMe"><span class="navNumber">03.</span> Contact</a>
                     </li>
                 </ul>
             </div>
@@ -58,7 +59,7 @@
     </nav>
 
     <!-- Hero section -->
-    <header class="landingPage banner-image w-100 vh100 d-flex justify-content-center align-items-center">
+    <header class="landingPage banner-image w-100 vh100 d-flex justify-content-center align-items-center" id="home">
         <div class="p-5 mb-4 rounded-3">
             <div class="container-fluid py-5">
                 <p class="preCopy">Hello! My name is</p>
@@ -72,13 +73,13 @@
     </header>
 
     <!-- About me -->
-    <div class="container aboutMe">
+    <div class="container aboutMe" id="aboutMe">
         <div class="row sectionHeading">
             <div class="col">
                 <h3 class="copyHeading"><span class="headingNumber">01.</span> About me</h3>
             </div>
         </div>
-        <div class="row sectionCopy">
+        <div class="row sectionCopy animation fade-in">
             <div class="col-lg-11">
                 <p class="copyBody">
                     I’ve always loved the idea of building things; in the world and virtually. I have a Masters degree
@@ -109,7 +110,7 @@
     </div>
 
     <!-- Works -->
-    <div class="container workSection">
+    <div class="container workSection" id="works">
         <div class="row sectionHeading">
             <div class="col">
                 <h3 class="copyHeading"><span class="headingNumber">02.</span> Some things I've created</h3>
@@ -202,7 +203,7 @@
     </div>
 
     <!-- Contact -->
-    <div class="container contactMe">
+    <div class="container contactMe" id="contactMe">
         <div class="row sectionHeading">
             <div class="col">
                 <h3 class="copyHeading"><span class="headingNumber">03.</span> Say hello</h3>
