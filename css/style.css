@@ -13,6 +13,11 @@
     background: #2C2C2D;
 }
 
+/* Body font for project */
+.h1, .h2, .h3, .h4, .h5, .h6, .p, .a, .ul, .btn, .label, h1, h2, h3, h4, h5, h6, p, a, ul, btn, label {
+    font-family: "Cascadia Code Regular", 'Courier New', Courier, monospace;
+}
+
 /* Animation for sections */
 .sectionHeading {
     animation-duration: 3s;
@@ -49,7 +54,6 @@
 }
 
 .nav-link {
-    font-family: "Cascadia Code Regular", 'Courier New', Courier, monospace;
     font-size: 16px;
     color: #247BA0;
 }
@@ -72,13 +76,11 @@
 
 .preCopy {
     color: #FB3640;
-    font-family: "Cascadia Code Regular", Courier, monospace;
     font-size: 16px;
     margin-left: 40px;
 }
 
 .fw-bold {
-    font-family: "Cascadia Code Regular", 'Courier New', Courier, monospace;
     color: #49ABD4;
     margin-left: 40px;
     font-size: 55px;
@@ -86,7 +88,6 @@
 }
 
 .py-5 h2 {
-    font-family: "Cascadia Code Regular", 'Courier New', Courier, monospace;
     font-weight: 900;
     color: #247BA0;
     margin-left: 40px;
@@ -96,7 +97,6 @@
 }
 
 .introCopy {
-    font-family: "Cascadia Code Regular", 'Courier New', Courier, monospace;
     color: #247BA0;
     margin-left: 40px;
     margin-top: 50px;
@@ -109,7 +109,6 @@
 }
 
 .landingPage button {
-    font-family: "Cascadia Code Regular";
     margin-left: 40px;
     margin-top: 20px;
     padding: 30px;
@@ -117,7 +116,6 @@
 
 /* About me */
 .copyHeading {
-    font-family: "Cascadia Code Regular", 'Courier New', Courier, monospace;
     font-size: 30px;
     color: #247BA0;
     margin-left: 50px;
@@ -125,25 +123,22 @@
 }
 
 .headingNumber {
-    font-family: "Cascadia Code Regular";
     color: #FB3640;
     font-size: 22px;
     align-items: center;
 }
 
 .copyBody {
-    font-family: "Cascadia Code Regular", 'Courier New', Courier, monospace;
     color: #247BA0;
     margin-left: 50px;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.5;
 }
 
 .sectionCopy ul {
-    font-family: "Cascadia Code Regular", 'Courier New', Courier, monospace;
     color: #247BA0;
     margin-left: 50px;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 1.5;
 }
 
@@ -156,7 +151,8 @@
 /* Style image overlay and transition */
 .projectImg {
     position: relative;
-    width: 50%;
+    margin-bottom: 20px;
+/*    width: 50%; */
 }
 
 .image {
@@ -166,11 +162,14 @@
 }
 
 .overlay {
+    display: flex;
+    align-items: center;
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
+    padding: 20px;
     height: 100%;
     width: 100%;
     opacity: 0;
@@ -183,7 +182,7 @@
 }
 
 .theProject a {
-    font-family: "Cascadia Code Regular", 'Courier New', Courier, monospace;
+    display: flex;
     font-size: 30px;
     color: #FB3640;
     text-decoration: none;
@@ -191,13 +190,7 @@
 
 .theProject {
     color: #247BA0;
-    font-family: "Cascadia Code Regular", 'Courier New', Courier, monospace;
     font-size: 16px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
 }
 
 
@@ -232,7 +225,6 @@
 
 .othercardTitle {
     color: #247BA0;
-    font-family: "Cascadia Code Regular", 'Courier New', Courier, monospace;
     font-size: 22px;
 }
 
@@ -243,7 +235,6 @@
 
 .extraProjects {
     color: #247BA0;
-    font-family: "Cascadia Code Regular", 'Courier New', Courier, monospace;
     font-size: 16px;
 }
 
@@ -256,7 +247,6 @@
 .form-control {
     background-color: #2C2C2D;
     border-color: #FB3640;
-    font-family: "Cascadia Code Regular";
 }
 
 .contactForm {
@@ -266,12 +256,10 @@
 }
 
 label {
-    font-family: "Cascadia Code Regular";
     color: #FB3640;
 }
 
 .contactButton {
-    font-family: "Cascadia Code Regular";
     /* display: flex; */
     padding: 30px;
     width: 100%;
@@ -289,7 +277,6 @@ footer a {
 }
 
 .footerCopy {
-    font-family: "Cascadia Code Regular";
     color: #49ABD4;
     font-size: 11px;
 }
