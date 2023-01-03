@@ -4,7 +4,11 @@
 
 The goal is to build my portfolio layout using Bootstrap CSS Framework.
 
-The idea for the site was first designed on Figma to 
+The idea for the site was first designed on Figma to have a clearly defined idea what I was going to create.
+
+The colors and design changed in the process of developing.
+
+![figma design](images/bootstrap-portfolio.png)
 
 ## Goals
 
