@@ -241,11 +241,6 @@
 }
 
 /* Add shadow on hover */
-.bodyCard:hover {
-    transition: width 2s linear 1s;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
 .extraWorks {
     display: flex;
     justify-content: center;
@@ -264,6 +259,15 @@
 .extraProjects {
     color: #247BA0;
     font-size: 16px;
+}
+
+/* Add bounce on hover */
+.bodyCard {
+    transition: transform 250ms;
+}
+
+.bodyCard:hover {
+    transform: translateY(-10px)
 }
 
 
