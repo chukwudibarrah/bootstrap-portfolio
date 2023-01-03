@@ -18,14 +18,41 @@
     font-family: "Cascadia Code Regular", 'Courier New', Courier, monospace;
 }
 
-/* Animation for sections */
-.sectionHeading {
-    animation-duration: 3s;
-    animation-name: slidein;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
+/* Add fade-in animation for sections */
 
+.fade-in-text {
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+    animation-direction: alternate;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
 
 /* Navigation */
 
@@ -42,6 +69,7 @@
 
 .thumbnail:hover .picture1 {
     display: none;
+    transition: transform 10s;
 }
 
 .thumbnail:hover .picture2 {
