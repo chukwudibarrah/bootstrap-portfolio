@@ -29,3 +29,7 @@ The colors and design changed in the process of developing.
 8. The webpage uses zero media queries.
 
 9. The Bootstrap-powered portfolio will be deployed to GitHub Pages on completion.
+
+## Live site
+
+See the final version of the site here: https://chukwudibarrah.github.io/bootstrap-portfolio/
